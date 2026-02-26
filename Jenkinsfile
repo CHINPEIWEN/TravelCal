@@ -17,7 +17,7 @@ pipeline {
     stages{
         stage('check'){
             steps {
-                git url: 'https://github.com/CHINPEIWEN/Week6_TravelCal.git'
+                git url: 'https://github.com/CHINPEIWEN/TravelCal.git'
             }
         }
 
